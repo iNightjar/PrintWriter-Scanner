@@ -1,0 +1,26 @@
+import java.io.File;
+import java.io.PrintWriter;
+import java.nio.file.FileSystemNotFoundException;
+import javax.sound.sampled.SourceDataLine;
+class scanner{
+    public static void main(String[] args) {
+        student [] students = {
+            new student("mohamed" , "alex"),
+            new student ("ahemd", " behara ")
+        };
+        File file = new File (test.txt)
+        Scanner input = null;
+        try {
+            input = new    Scanner(file);
+            while(input.hasNext()){
+                String value = input.next();
+            }
+        } catch (FileNotFoundException ex) {
+            //TODO: handle exception
+            System.out.println(ex.getMessage());
+        }finally{
+         
+           }   input.close();
+        }
+    }
+    

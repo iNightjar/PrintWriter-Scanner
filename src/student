@@ -1,0 +1,9 @@
+class student{
+    string name;
+    string address;
+    public student(string name, string address)
+    {
+        this.name = name;
+        this.address = address;
+    }
+}
